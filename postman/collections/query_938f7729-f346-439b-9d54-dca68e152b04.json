@@ -1,0 +1,155 @@
+{
+    "info": {
+        "_postman_id": "ef6c5ed6-c02c-4116-956a-dda16033cee2",
+        "name": "query",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Sample endpoint: Returns details about a partnicular use",
+            "id": "5a689c24-e385-4b2c-840a-365970c692f4",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{baseUrl}}/user?id=45804980&nksjndf=43543534",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "user"
+                    ],
+                    "query": [
+                        {
+                            "key": "id",
+                            "value": "45804980",
+                            "description": "(Required) ID of the user"
+                        },
+                        {
+                            "key": "nksjndf",
+                            "value": "43543534"
+                        }
+                    ]
+                }
+            },
+            "response": [
+                {
+                    "id": "0861f869-51e6-4f73-8000-d972a813cc06",
+                    "name": "Unexpected error",
+                    "originalRequest": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/user?id=45804980",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "user"
+                            ],
+                            "query": [
+                                {
+                                    "key": "id",
+                                    "value": "45804980"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "Internal Server Error",
+                    "code": 500,
+                    "_postman_previewlanguage": "Text",
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "{\n \"code\": -80804072,\n \"message\": \"nisi sint\"\n}"
+                },
+                {
+                    "id": "2fdea3cc-4f94-4eb9-b17e-65624b0d4fa3",
+                    "name": "Sample response: Details about a user by ID",
+                    "originalRequest": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/user?id=45804980",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "user"
+                            ],
+                            "query": [
+                                {
+                                    "key": "id",
+                                    "value": "45804980"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "Text",
+                    "header": [
+                        {
+                            "disabled": false,
+                            "description": {
+                                "content": "A link to the next page of responses",
+                                "type": "text/plain"
+                            },
+                            "key": "x-next",
+                            "value": "adipisicing pariatur"
+                        },
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "{\n \"id\": -24611775,\n \"name\": \"ex in sed\",\n \"tag\": \"id commodo reprehenderit voluptate\"\n}"
+                }
+            ]
+        }
+    ],
+    "event": [
+        {
+            "listen": "prerequest",
+            "script": {
+                "id": "49622b68-f748-46e9-af81-3e64fb43587d",
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        },
+        {
+            "listen": "test",
+            "script": {
+                "id": "358d1259-5974-474c-b157-39a3f436a0f4",
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "variable": [
+        {
+            "id": "02bf1756-8cff-4284-95cc-105ad47234b8",
+            "key": "baseUrl",
+            "value": "http://localhost:3000"
+        },
+        {
+            "id": "8b3ed006-d524-4ddc-962b-02fab57cf514",
+            "key": "s",
+            "value": "1"
+        }
+    ]
+}

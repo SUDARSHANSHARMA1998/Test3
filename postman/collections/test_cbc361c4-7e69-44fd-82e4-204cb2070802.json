@@ -1,0 +1,180 @@
+{
+    "info": {
+        "_postman_id": "85163168-dde9-4f46-89d5-3ee8da7912e9",
+        "name": "test",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Sample endpoint: Returns details about a particular user",
+            "id": "3146d728-19a0-4976-b47e-9e2b93299a2e",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "auth": {
+                    "type": "noauth"
+                },
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"apiVersion\": \"12e-d23r-f23c-332qxw\",\n  \"tag\": \"v1.0.0\"\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "{{url}}/apis/cb5cff78-4ca3-49d0-b58a-6560cd9a4773/versions/df88acd8-f4a6-4126-947f-a422f079ab2c/link-tag?access-key=de845a76d332c06caa6cc09055cfacc5cc92b64beb1d9b74bdf0a75986640dbc94f3d18dd701484894eaf48ca488b60441aad854d140f6af71932c043c903ae5",
+                    "host": [
+                        "{{url}}"
+                    ],
+                    "path": [
+                        "apis",
+                        "cb5cff78-4ca3-49d0-b58a-6560cd9a4773",
+                        "versions",
+                        "df88acd8-f4a6-4126-947f-a422f079ab2c",
+                        "link-tag"
+                    ],
+                    "query": [
+                        {
+                            "key": "access-key",
+                            "value": "de845a76d332c06caa6cc09055cfacc5cc92b64beb1d9b74bdf0a75986640dbc94f3d18dd701484894eaf48ca488b60441aad854d140f6af71932c043c903ae5",
+                            "type": "text"
+                        }
+                    ]
+                }
+            },
+            "response": [
+                {
+                    "id": "3a8d537b-d0a5-42b4-8926-98dfe52d7092",
+                    "name": "Sample response: Details about a user by ID",
+                    "originalRequest": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/user?id=-2115152",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "user"
+                            ],
+                            "query": [
+                                {
+                                    "key": "id",
+                                    "value": "-2115152"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "disabled": false,
+                            "description": "A link to the next page of responses",
+                            "key": "x-next",
+                            "value": "voluptate"
+                        },
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "{\n \"id\": 66281991,\n \"name\": \"dol\",\n \"tag\": \"irure\"\n}"
+                },
+                {
+                    "id": "e71aafde-d52b-458b-935f-24a0b9410a29",
+                    "name": "Unexpected error",
+                    "originalRequest": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/user?id=-2115152",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "user"
+                            ],
+                            "query": [
+                                {
+                                    "key": "id",
+                                    "value": "-2115152"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "Internal Server Error",
+                    "code": 500,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "cookie": [],
+                    "responseTime": null,
+                    "body": "{\n \"code\": -50796138,\n \"message\": \"dolor consequat\"\n}"
+                }
+            ]
+        }
+    ],
+    "event": [
+        {
+            "listen": "prerequest",
+            "script": {
+                "id": "72f62ac9-a718-4ab6-8541-49625c8ca97c",
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        },
+        {
+            "listen": "test",
+            "script": {
+                "id": "bb0b44b8-64da-4eaf-a1db-dadc2f01cf85",
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "variable": [
+        {
+            "id": "8a8b8f61-fdec-4577-92e3-b2b088d50ac5",
+            "key": "baseUrl",
+            "value": "http://localhost:3000"
+        },
+        {
+            "id": "1e993a3f-5451-48fd-98b6-0418accd0ffb",
+            "key": "url",
+            "value": "{{url}}"
+        },
+        {
+            "id": "4e9b8e43-ccb5-4b03-a942-8398b85b7412",
+            "key": "x",
+            "value": "1"
+        },
+        {
+            "id": "ad0ae427-c91f-4dff-b8df-77fe12146c41",
+            "key": "y",
+            "value": "1"
+        }
+    ]
+}
