@@ -1,14 +1,14 @@
 {
 	"info": {
-		"_postman_id": "2229221c-02b6-4b15-9d6b-600f7ec4a129",
+		"_postman_id": "aa385b44-f00e-41e9-b0cc-81ccf28fe1fb",
 		"name": "C1 changed",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "889219-2229221c-02b6-4b15-9d6b-600f7ec4a129"
+		"_uid": "889219-aa385b44-f00e-41e9-b0cc-81ccf28fe1fb"
 	},
 	"item": [
 		{
 			"name": "New Request",
-			"id": "bfe2c879-deea-4573-bd79-072c2c674e7d",
+			"id": "0a326245-d778-46a8-924c-1fee3403a9ff",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
