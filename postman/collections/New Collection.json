@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "ad6849b2-c095-4b7d-a002-5626214619fc",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "889219-ad6849b2-c095-4b7d-a002-5626214619fc"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"id": "0372ff42-b025-44a8-b399-aa6d202f9985",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "8c04a9f8-4be3-4b20-a1d3-b645da24a291",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": [
+				{
+					"id": "3dc10ba9-c3d7-4e8a-8fc5-23d6e2b16f59",
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"_postman_previewlanguage": "",
+					"header": "",
+					"cookie": [],
+					"body": ""
+				}
+			]
+		}
+	]
+}
