@@ -1,0 +1,35 @@
+id = fb888ab5-8eb3-4ad4-a84f-c08879709fef
+
+[relations]
+
+[relations.collections]
+rootDirectory = postman/collections
+files[] = {"id":"889219-2124095f-a588-4386-aa3f-0d58f8de96ee","path":"2.json","metaData":{}}
+files[] = {"id":"889219-0c18ee84-9bda-43eb-8b9f-4a168703c22b","path":"API Dev Platform APIs #reference.json","metaData":{}}
+files[] = {"id":"889219-5d51e2b0-02a0-44cc-b1de-97afd5d2c6b5","path":"Google Maps Platform.json","metaData":{}}
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = postman/schemas
+files[] = {"path":"index.yml","metaData":{}}
+files[] = {"path":"parameters/_index.yml","metaData":{}}
+files[] = {"path":"parameters/arrival_time.yml","metaData":{}}
+files[] = {"path":"parameters/departure_time.yml","metaData":{}}
+files[] = {"path":"parameters/directions/alternatives.yml","metaData":{}}
+files[] = {"path":"parameters/directions/avoid.yml","metaData":{}}
+files[] = {"path":"parameters/directions/departure_time.yml","metaData":{}}
+files[] = {"path":"parameters/directions/destination.yml","metaData":{}}
+files[] = {"path":"parameters/directions/origin.yml","metaData":{}}
+files[] = {"path":"parameters/directions/units.yml","metaData":{}}
+files[] = {"path":"parameters/directions/waypoints.yml","metaData":{}}
+files[] = {"path":"parameters/distanceMatrix/avoid.yml","metaData":{}}
+files[] = {"path":"parameters/distanceMatrix/destinations.yml","metaData":{}}
+files[] = {"path":"parameters/distanceMatrix/origins.yml","metaData":{}}
+files[] = {"path":"parameters/distanceMatrix/units.yml","metaData":{}}
+files[] = {"path":"parameters/elevation/locations.yml","metaData":{}}
+files[] = {"path":"parameters/elevation/path.yml","metaData":{}}
+files[] = {"path":"parameters/elevation/samples.yml","metaData":{}}
+
+[relations.apiDefinition.metaData]
+type = openapi:3
