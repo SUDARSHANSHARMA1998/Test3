@@ -5,6 +5,7 @@ id = 65cd8106-8936-416f-9f02-e0d0259a56a1
 [relations.collections]
 rootDirectory = postman/collections
 files[] = {"id":"889219-6b68f3ae-4e95-4e1d-be13-62a3b0cca00d","path":"Google Maps Platform.json","metaData":{}}
+files[] = {"id":"889219-2eeec679-1950-43a6-845e-6a014a2bb996","path":"New Collection.json","metaData":{}}
 
 [relations.collections.metaData]
 
